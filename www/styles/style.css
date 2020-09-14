@@ -1,0 +1,422 @@
+@import 'normailize.css';
+@import url('https://fonts.googleapis.com/css2?family=Ruda:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@700&display=swap');
+
+@media (min-width: 1280px) {
+html {
+    background-color: #1f1e24;
+}
+body {
+    margin-left: 0px;
+    margin-right: 0px;
+    
+}
+
+
+header {
+
+    background-image: url('/images/header-image.jpg');
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    bottom: 80px;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    height: 20%;
+    font-family: 'Ruda', sans-serif;
+    animation: rubberBand;
+    animation-duration: 1.5s;
+    
+}
+
+h1 {
+
+    font-size: 54px;
+    
+    animation: bounceInDown;
+    animation-duration: 2s;
+
+}
+
+.hotel {
+    display: grid;
+    grid-template-columns: repeat(5,230px);
+    margin-top: 200px;
+    justify-content: center;
+
+    
+    
+}
+.reservas {
+    position: relative;
+    border: 1px solid white;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left;
+    
+}
+.boton {
+  position: absolute;
+  bottom: 2.5px;
+  left: 0;
+  right: 0;
+}
+
+img {
+    width: 168px;
+    height: 190px;
+    
+    transition: height 1.2s ease-out 200ms;
+}
+
+img:hover {
+    
+    height: 210px;
+}
+
+h3 {
+    color: whitesmoke;
+    font-family: 'Catamaran', sans-serif;
+    margin-bottom: 2px;
+    line-height: 1.20;
+}
+
+strong {
+    color: #bb3841;
+    font-family: 'Ruda',sans-serif;
+    margin-top: -28px;
+}
+
+p {
+    color: whitesmoke;
+    font-family: 'Ruda',sans-serif;
+    font-size: 11px;
+    
+    line-height: 2.20;
+    margin-top: -2px;
+}
+button {
+    background-color: #c73a43;
+    font-family: 'Ruda',sans-serif;
+    width: 100%;
+    margin-bottom: -30px;
+    transition: background-color 1.5s ease-out 200ms;
+}
+button:hover,
+button:focus{
+    background: #D4AF37;
+}
+
+footer {
+    
+    background-color: #c73a43;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 190px;
+    margin-bottom: 10px;
+    position: absolute;   
+    width: 100%;
+    height: 40px;
+    font-family: 'Ruda',sans-serif;
+    top: 93%;
+}
+
+.contacto {
+    display: inline-block;
+    vertical-align: middle;
+    
+    width: 49%;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 24px;
+}
+
+}
+
+@media (min-width: 766px) and (max-width: 1280px) {
+    html {
+        background-color: #1f1e24;
+    }
+    body {
+        margin-left: 0px;
+        margin-right: 0px;
+        
+    }
+    
+    
+    header {
+    
+        background-image: url('/images/header-image.jpg');
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        display: flex;
+        bottom: 80px;
+        align-items: center;
+        justify-content: center;
+        color: whitesmoke;
+        width: 100%;
+        background-size: cover;
+        background-position: center center;
+        height: 15%;
+        font-family: 'Ruda', sans-serif;
+        animation: rubberBand;
+        animation-duration: 1.5s;
+        
+    }
+    
+    h1 {
+    
+        font-size: 54px;
+        
+        animation: bounceInDown;
+        animation-duration: 2s;
+    
+    }
+    
+    .hotel {
+        display: grid;
+        grid-template-columns: repeat(3,230px);
+        margin-top: 200px;
+        justify-content: center;
+    
+        
+        
+    }
+    .reservas {
+        position: relative;
+        border: 1px solid white;
+        padding: 20px;
+        margin-top: 18px;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: left;
+        
+    }
+    .boton {
+      position: absolute;
+      bottom: 2.5px;
+      left: 0;
+      right: 0;
+    }
+    
+    img {
+        width: 168px;
+        height: 190px;
+        
+        transition: height 1.2s ease-out 200ms;
+    }
+    
+    img:hover {
+        
+        height: 210px;
+    }
+    
+    h3 {
+        color: whitesmoke;
+        font-family: 'Catamaran', sans-serif;
+        margin-bottom: 2px;
+        line-height: 1.20;
+    }
+    
+    strong {
+        color: #bb3841;
+        font-family: 'Ruda',sans-serif;
+        margin-top: -28px;
+    }
+    
+    p {
+        color: whitesmoke;
+        font-family: 'Ruda',sans-serif;
+        font-size: 11px;
+        
+        line-height: 2.20;
+        margin-top: -2px;
+    }
+    button {
+        background-color: #c73a43;
+        font-family: 'Ruda',sans-serif;
+        width: 100%;
+        margin-bottom: -30px;
+        transition: background-color 1.5s ease-out 200ms;
+    }
+    button:hover,
+    button:focus{
+        background: #D4AF37;
+    }
+    
+    footer {
+        
+        background-color: #c73a43;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        margin-top: 190px;
+        margin-bottom: 10px;
+        position: absolute;   
+        width: 100%;
+        height: 30px;
+        font-family: 'Ruda',sans-serif;
+        top: 93%;
+    }
+    
+    .contacto {
+        display: inline-block;
+        vertical-align: middle;
+        line-height: 1.20;
+        width: 49%;
+        font-family: 'Catamaran', sans-serif;
+        font-size: 18px;
+    }
+    
+    }
+
+    @media (max-width: 766px){
+        html {
+            background-color: #1f1e24;
+        }
+        body {
+            margin:0;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            
+        }
+        
+        
+        header {
+        
+            background-image: url('/images/header-image.jpg');
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            display: flex;
+            bottom: 80px;
+            align-items: center;
+            justify-content: center;
+            color: whitesmoke;
+            width: 100%;
+            background-size: cover;
+            background-position: center center;
+            height: 20%;
+            font-family: 'Ruda', sans-serif;
+            animation: rubberBand;
+            animation-duration: 1.5s;
+            
+        }
+        
+        h1 {
+        
+            font-size: 28px;
+            text-align: center;
+            animation: bounceInDown;
+            animation-duration: 2s;
+        
+        }
+        
+        .hotel {
+            display: grid;
+            grid-template-columns: 230px;
+            margin-top: 200px;
+            justify-content: center;
+        
+            margin-bottom: 120px;
+            
+        }
+        .reservas {
+            position: relative;
+            border: 1px solid white;
+            padding: 20px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            text-align: left;
+            
+        }
+        .boton {
+          position: absolute;
+          bottom: 2.5px;
+          left: 0;
+          right: 0;
+        }
+        
+        img {
+            width: 168px;
+            height: 190px;
+            
+            transition: height 1.2s ease-out 200ms;
+        }
+        
+        img:hover {
+            
+            height: 210px;
+        }
+        
+        h3 {
+            color: whitesmoke;
+            font-family: 'Catamaran', sans-serif;
+            margin-bottom: 2px;
+            line-height: 1.20;
+        }
+        
+        strong {
+            color: #bb3841;
+            font-family: 'Ruda',sans-serif;
+            margin-top: -28px;
+        }
+        
+        p {
+            color: whitesmoke;
+            font-family: 'Ruda',sans-serif;
+            font-size: 11px;
+            
+            line-height: 2.20;
+            margin-top: -2px;
+        }
+        button {
+            background-color: #c73a43;
+            font-family: 'Ruda',sans-serif;
+            width: 100%;
+            margin-bottom: -30px;
+            transition: background-color 1.5s ease-out 200ms;
+        }
+        button:hover,
+        button:focus{
+            background: #D4AF37;
+        }
+        
+        footer {
+            display:flex;
+            background-color: #c73a43;
+            color: white;
+            left: 0;
+            bottom: 0;
+            margin-top: 30px;
+            padding-top: 15px;
+            width: 100%;
+            height: 40px;
+            font-family: 'Ruda',sans-serif;
+            
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .contacto {
+            
+            vertical-align: middle;
+            line-height: 1;
+            width: 99%;
+            font-family: 'Catamaran', sans-serif;
+            font-size: 12px;
+        }
+        
+        }
