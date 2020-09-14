@@ -14,7 +14,7 @@ body {
 
 
 header {
-
+    
     background-image: url('/images/header-image.jpg');
     position: absolute;
     top: 0px;
@@ -49,9 +49,7 @@ h1 {
     grid-template-columns: repeat(5,230px);
     margin-top: 200px;
     justify-content: center;
-
-    
-    
+        
 }
 .reservas {
     position: relative;
@@ -118,22 +116,21 @@ footer {
     
     background-color: #c73a43;
     color: white;
-    text-align: center;
-    padding: 20px;
     margin-top: 190px;
     margin-bottom: 10px;
-    position: absolute;   
     width: 100%;
-    height: 40px;
+    padding: 10px;
+    height: 60px;
     font-family: 'Ruda',sans-serif;
     top: 93%;
+    box-sizing: border-box;
+    vertical-align: middle;
+    text-align: center;
 }
 
 .contacto {
-    display: inline-block;
-    vertical-align: middle;
+          
     
-    width: 49%;
     font-family: 'Catamaran', sans-serif;
     font-size: 24px;
 }
@@ -255,21 +252,22 @@ footer {
     
     footer {
         
-        background-color: #c73a43;
-        color: white;
-        text-align: center;
-        padding: 20px;
-        margin-top: 190px;
-        margin-bottom: 10px;
-        position: absolute;   
-        width: 100%;
-        height: 30px;
-        font-family: 'Ruda',sans-serif;
-        top: 93%;
+    background-color: #c73a43;
+    color: white;
+    margin-top: 190px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    height: 60px;
+    font-family: 'Ruda',sans-serif;
+    top: 93%;
+    box-sizing: border-box;
+    vertical-align: middle;
+    text-align: center;
     }
     
     .contacto {
-        display: inline-block;
+        
         vertical-align: middle;
         line-height: 1.20;
         width: 49%;
@@ -395,19 +393,18 @@ footer {
         }
         
         footer {
-            display:flex;
             background-color: #c73a43;
             color: white;
-            left: 0;
-            bottom: 0;
-            margin-top: 30px;
-            padding-top: 15px;
+            margin-top: 190px;
+            margin-bottom: 10px;
             width: 100%;
-            height: 40px;
+            padding: 10px;
+            height: 30px;
             font-family: 'Ruda',sans-serif;
-            
-            justify-content: center;
-            align-items: center;
+            top: 93%;
+            box-sizing: border-box;
+            vertical-align: middle;
+            text-align: center;
         }
         
         .contacto {
